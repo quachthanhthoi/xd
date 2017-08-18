@@ -1,0 +1,9 @@
+/*-------------------
+      Element
+--------------------*/
+@placeholderColor: #E4E4E4;
+@borderRadius: 0;
+@loaderLineWidth: 0px 0px 0px 1px;
+@padding: 0.2em;
+/* Focus */
+@focusBorderColor: #0DAADC;

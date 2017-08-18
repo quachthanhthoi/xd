@@ -1,0 +1,12 @@
+@backgroundColor: white;
+@focusColor: #0DAADC;
+@focusBackgroundColor: white;
+@fontWeight: normal;
+@hoverBackgroundColor: white;
+@downBackgroundColor: white;
+@downColor: #0DAADC;
+@activeBackgroundColor: white;
+@activeColor: #0DAADC;
+@hoverBoxShadow: white;
+@hoverColor: #E4E4E4;
+@textColor: #808080;

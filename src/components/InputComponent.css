@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: column;
+
+    height: 70px;
+    width: 90px;
+    margin: 50px 50px 50px 0;
+  }
+
+  .input {
+    flex: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+  }
+
+  .lock_button {
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+
+    -webkit-order: 1;
+    order: 1;
+  }

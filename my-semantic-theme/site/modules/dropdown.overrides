@@ -1,0 +1,14 @@
+.ui.search.selection.dropdown {
+  border-width: 0 0 1px 0;
+  margin: 10px 0 10px 0;
+  padding: 0px;
+  min-height: 1.5em;
+}
+
+.ui.multiple.dropdown > .text {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.ui.selection.dropdown > .dropdown.icon {
+ padding: 0;
+}
