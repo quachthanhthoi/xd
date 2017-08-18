@@ -1,10 +1,10 @@
 .ui.selection.dropdown .menu.noscrolling {
-  overflow: hidden;
-  max-height: none;
+	overflow: hidden;
+	max-height: none;
 }
 
 .ui.selection.dropdown .menu .buttons {
-  display: flex;
-  width: auto;
-  margin: 7px;
+	display: flex;
+	width: auto;
+	margin: 7px;
 }

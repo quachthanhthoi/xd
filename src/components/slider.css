@@ -1,59 +1,60 @@
 /*Chrome*/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    input[type='range'] {
-      overflow: hidden;
-      width: 80px;
-      height: 5px;
-      -webkit-appearance: none;
-      background-color: #808080;
-    }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	input[type='range'] {
+		overflow: hidden;
+		width: 80px;
+		height: 5px;
+		-webkit-appearance: none;
+		background-color: #808080;
+	}
 
-    input[type='range']::-webkit-slider-runnable-track {
-      height: 10px;
-      -webkit-appearance: none;
-      color: #0DAADC;
-      margin-top: -1px;
-    }
+	input[type='range']::-webkit-slider-runnable-track {
+		height: 10px;
+		-webkit-appearance: none;
+		color: #0daadc;
+		margin-top: -1px;
+	}
 
-    input[type='range']::-webkit-slider-thumb {
-      width: 10px;
-      -webkit-appearance: none;
-      height: 10px;
-      cursor: ew-resize;
-      background: #e4e4e4;
-      box-shadow: -80px 0 0 80px #0DAADC;
-    }
-
+	input[type='range']::-webkit-slider-thumb {
+		width: 10px;
+		-webkit-appearance: none;
+		height: 10px;
+		cursor: ew-resize;
+		background: #e4e4e4;
+		box-shadow: -80px 0 0 80px #0daadc;
+	}
 }
 
 input[type=range]::-moz-range-thumb {
-    border: none;
-    height: 16px;
-    border-radius: 50%;
-    background: #e4e4e4;
+	border: none;
+	height: 16px;
+	border-radius: 50%;
+	background: #e4e4e4;
 }
 /** FF*/
 input[type="range"]::-moz-range-progress {
-  background-color: #0DAADC;
+	background-color: #0daadc;
 }
 input[type="range"]::-moz-range-track {
-  background-color: #808080;
+	background-color: #808080;
 }
 /*hide the outline behind the border*/
-input[type=range]:-moz-focusring{
-    outline: 1px solid white;
-    outline-offset: -1px;
+input[type=range]:-moz-focusring {
+	outline: 1px solid white;
+	outline-offset: -1px;
 }
 
 /* hide the increase/descrease spinner */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
-input[type=number] {-moz-appearance: textfield;}
+input[type=number] {
+	-moz-appearance: textfield;
+}
 
 .sliderInput {
-  margin: 5px;
+	margin: 5px;
 }

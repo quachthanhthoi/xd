@@ -25,7 +25,7 @@ const ControlledInputComponent = ({
   onRotateChange
 }) => {
   return (
-    <table>
+    <tr>
       <td>
         <div className="wrapper">
           <div className="input">
@@ -220,7 +220,7 @@ const ControlledInputComponent = ({
           </div>
         </div>
       </td>
-    </table>
+    </tr>
   );
 };
 
@@ -294,9 +294,12 @@ const control = WrappedComponent =>
       this.props.onChange(this.state);
     };
 
+
+
     render() {
       return (
         <WrappedComponent
+
           lock={this.state.lock}
           width={this.state.width}
           height={this.state.height}
@@ -306,6 +309,7 @@ const control = WrappedComponent =>
           onClickButton={this.handleClickButton}
           onSizeChange={this.handleSizeChange}
           onRotateChange={this.handleRotateChange}
+          onAxisChange={this.handleAxisChange}
         />
       );
     }

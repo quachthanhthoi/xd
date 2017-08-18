@@ -36,8 +36,7 @@ const ControlledGroupButton = ({
 								inverted
 								disabled={!arrangeStatus.activeArrange}
 								icon
-								onClick={onArrangeButtonClick(idx)}
-							>
+								onClick={onArrangeButtonClick(idx)}>
 								{idx == 3
 									? <Icon.Group>
 											<Icon
